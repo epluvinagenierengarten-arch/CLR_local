@@ -1,0 +1,25 @@
+/*
+Theme Name: Mon thème FSE
+Author: Evaëlle Pluvinage-nierengarten
+Version: 1.0
+Requires at least: 6.0
+Requires PHP: 8.5
+*/
+
+.site-footer .footer-menu a { 
+    text-decoration: none; 
+}
+
+.site-footer .footer-menu .wp-block-navigation-item { 
+    margin-bottom: .5rem; 
+}
+
+.site-footer .wp-block-image img { 
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+@media (max-width: 781px) {
+  .site-footer__columns { gap: 2rem; }
+}
